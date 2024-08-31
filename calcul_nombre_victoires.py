@@ -10,7 +10,7 @@ nb_parties=100000
 # Créer un DataFrame vide avec les méthodes de rangement comme index et colonnes
 resultats_df = pd.DataFrame(0,index=methodes_rangement, columns=methodes_rangement)
 
-# Remplir le DataFrame avec les moyennes des durées sans symétriques
+# Remplir le DataFrame avec le nombre de victoires sans symétriques
 for i, rang_j1 in enumerate(methodes_rangement):
     for j, rang_j2 in enumerate(methodes_rangement):
         if i < j:  # Exclure les symétriques
@@ -20,6 +20,6 @@ for i, rang_j1 in enumerate(methodes_rangement):
 
 df_percent = (resultats_df / nb_parties) * 100
 # Afficher le tableau des résultats avec pandas
-print("Tableau des moyennes des durées (sans symétriques) :\n")
+print("Tableau des pourcentages de victoires (sans symétriques) :\n")
 #print(resultats_df)
 print(df_percent)
