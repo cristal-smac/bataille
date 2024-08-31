@@ -3,25 +3,25 @@ Records avec C1
 Conjecture "Spivey" : pas de cycle pour 2^n et 3*(2^n) donc 2,3,4,8,12,16,24,32,48
 
 
-N=2 - complete (2 distribs)
+N=2 - complete (1 distribs)
 Joueur 1 : [1]
 Joueur 2 : [2]
 Duree pour cette partie : 1
 
 
-N=3 - complete (6 distribs)
+N=3 - Taille des mains non symétrique - complete (3 distribs)
 Joueur 1 : [2]
 Joueur 2 : [1, 3]
 Duree pour cette partie : 3
 
 
-N=4 - complete (24 distribs)
+N=4 - complete (12 distribs)
 Joueur 1 : [1, 3]
 Joueur 2 : [4, 2]
 Duree pour cette partie : 6
 
 
-N=5 - complete (120 distribs)
+N=5 - Taille des mains non symétrique - complete (60 distribs)
 Joueur 1 : [1, 4]
 Joueur 2 : [2, 3, 5]
 Duree pour cette partie : 8
@@ -30,13 +30,13 @@ Nouveau Cycle de taille 6 False : (((4, 2), (3, 5, 1)), ((2, 4, 3), (5, 1)), ((4
 Nouveau Cycle de taille 6 False : (((4, 3), (2, 5, 1)), ((3, 4, 2), (5, 1)), ((4, 2), (1, 5, 3)), ((2, 4, 1), (5, 3)), ((4, 1), (3, 5, 2)), ((1, 4, 3), (5, 2)))
 
 
-N=6 - complete (720 distribs)
+N=6 - complete (360 distribs)
 Joueur 1 : [1, 3, 5]
 Joueur 2 : [4, 6, 2]
 Duree pour cette partie : 15
 
 
-N=7 - complete (5040 distribs)
+N=7 - Taille des mains non symétrique - complete (2520 distribs)
 Joueur 1 : [3, 6, 2]
 Joueur 2 : [4, 5, 1, 7]
 Duree pour cette partie : 15
@@ -44,13 +44,13 @@ Duree pour cette partie : 15
 Nouveau Cycle de taille 8 False : (((2, 7, 3), (4, 1, 6, 5)), ((7, 3), (1, 6, 5, 4, 2)), ((3, 7, 1), (6, 5, 4, 2)), ((7, 1), (5, 4, 2, 6, 3)), ((1, 7, 5), (4, 2, 6, 3)), ((7, 5), (2, 6, 3, 4, 1)), ((5, 7, 2), (6, 3, 4, 1)), ((7, 2), (3, 4, 1, 6, 5)))
 
 
-N=8 - complete (40320 distribs)
+N=8 - complete (20160 distribs)
 Joueur 1 : [1, 4, 6, 8]
 Joueur 2 : [7, 2, 5, 3]
 Duree pour cette partie : 26
 
 
-N=9 - complete (362880 distribs)
+N=9 - Taille des mains non symétrique - complete (181440 distribs)
 Joueur 1 : [1, 2, 3, 8]
 Joueur 2 : [6, 5, 4, 7, 9]
 Duree pour cette partie : 28
