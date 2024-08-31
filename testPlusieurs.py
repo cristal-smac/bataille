@@ -142,7 +142,7 @@ def simuler_distributions(distributions, rangement_j1, rangement_j2 , trace, lim
     return moyenne_durees, nombre_victoires_j1, nombre_victoires_j2
 
 def simuler_plusieurs(nb_couleurs, nb_valeurs, nb_parties,rangement_j1,rangement_j2,trace):
-    print(f"nbCoul={nb_couleurs}, nbVal={nb_valeurs}, rangement_j1={rangement_j2}, rangement_j2={rangement_j2}")
+    print(f"nbCoul={nb_couleurs}, nbVal={nb_valeurs}, rangement_j1={rangement_j1}, rangement_j2={rangement_j2}")
     distributions = generer_mains_aleatoires(nb_couleurs, nb_valeurs, nb_parties)
     return simuler_distributions(distributions,rangement_j1,rangement_j2,trace)
 
@@ -157,7 +157,7 @@ def simuler_toutes_distributions(nb_couleurs, nb_valeurs,rangement_j1,rangement_
 if __name__ == "__main__":
     start_time = time.time()
     #simuler_plusieurs(nb_couleurs=4, nb_valeurs=5, nb_parties=1000000, rangement_j1="naturelle", rangement_j2="naturelle", trace=False)
-    simuler_toutes_distributions(nb_couleurs=4, nb_valeurs=5, rangement_j1="naturelle", rangement_j2="naturelle",trace=False)
+    simuler_toutes_distributions(nb_couleurs=1, nb_valeurs=9, rangement_j1="naturelle", rangement_j2="naturelle",trace=False)
     end_time = time.time()
     elapsed_time = end_time - start_time
     minutes, seconds = divmod(elapsed_time, 60)  # Convert to minutes and seconds
