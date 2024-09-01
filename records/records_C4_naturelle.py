@@ -1,6 +1,6 @@
 # records actuels selon le nombre de valeurs de cartes (V) et 4 couleurs avec rangement naturel.
 
-# Il existe des cycles alignés pour V=3 et V=4, ce qui permet de construire tous les cycles pour tous les ensembles de valeurs de taille 3x+4y (3,4,6,7,8,9,10,11,12,..) mais ni 5, ni 13
+# Il existe des cycles alignés pour V=4 et V=6, ce qui permet de construire tous les cycles pour tous les ensembles de valeurs de taille à partir de 4.
 
 from bataille import *
 
@@ -24,7 +24,7 @@ from bataille import *
 #cartes_joueur2 = [2, 3, 3, 1, 1, 2]
 # Durée moyenne : 13,43
 
-# 360 cycles qui amènent à un seul cycle de taille 19. Il est aligné
+# 360 cycles qui amènent à un seul cycle de taille 19, malheureusement non aligné.
 #cartes_joueur1 = [3,2,1,1,2,1]
 #cartes_joueur2 = [2,1,3,2,3,3] 
 
