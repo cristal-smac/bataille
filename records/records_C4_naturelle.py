@@ -18,7 +18,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=3  - MAXIMUM POSSIBLE - 17.370
+# V=3  - MAXIMUM POSSIBLE - 17.370 parties
 # Gagnant : (1, 0) - Nombre de plis : 37 - Nombre de cartes posees : 54
 #cartes_joueur1 =[2, 1, 3, 1, 3, 2]
 #cartes_joueur2 = [2, 3, 3, 1, 1, 2]
@@ -30,20 +30,25 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=4  - MAXIMUM POSSIBLE - 31.532.760 (46mn)
+# V=4  - MAXIMUM POSSIBLE - 31.532.760 parties (46mn)
 # Gagnant : (1, 0) - Nombre de plis : 142 - Nombre de cartes posees : 192
 #cartes_joueur1 = [2, 1, 3, 3, 4, 2, 3, 4]
 #cartes_joueur2 = [4, 1, 3, 1, 4, 2, 2, 1]
 # Durée moyenne : 28,61
 
 # 8545 cycles qui amènent à 4 cycles différents. 
+#[4, 2, 4, 1, 3, 1, 3, 3] [2, 1, 4, 4, 3, 2, 2, 1]
+#[3, 1, 3, 3, 2, 1, 4, 4] [3, 2, 2, 1, 4, 2, 4, 1]
+#[3, 1, 3, 3, 4, 1, 4, 4] [3, 2, 2, 1, 4, 2, 2, 1]
+#[2, 1, 4, 4, 2, 1, 3, 3] [4, 2, 4, 1, 3, 2, 3, 1]
+
 # Ex : Cycle aligné de taille 24
 #cartes_joueur1 = [2,1,4,4,2,1,3,3]
 #cartes_joueur2 = [4,2,4,1,3,2,3,1]
 
 #------------------------------------------------------
 
-# V=5 (il y en a 150 milliards !!  (152.770.174.200 exactement))
+# V=5 (il y  a 150 milliards de parties !!  (152.770.174.200 exactement))
 # Gagnant : (1, 0) - Nombre de plis : 453 - Nombre de cartes posees : 562
 #cartes_joueur1 = [1, 1, 1, 2, 1, 5, 3, 4, 4, 5]
 #cartes_joueur2 = [2, 3, 5, 3, 4, 5, 2, 3, 4, 2]

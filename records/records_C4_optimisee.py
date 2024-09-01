@@ -18,7 +18,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=3 - MAXIMUM POSSIBLE - 17.370
+# V=3 - MAXIMUM POSSIBLE - 17.370 parties
 # Gagnant : (0, 1) - Nombre de plis : 34 - Nombre de cartes posees : 48
 #cartes_joueur1 = [3, 2, 2, 2, 3, 3]
 #cartes_joueur2 = [1, 1, 2, 3, 1, 1]
@@ -28,7 +28,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=4 - MAXIMUM POSSIBLE - 31.532.760 (32mn)
+# V=4 - MAXIMUM POSSIBLE - 31.532.760 parties (32mn)
 # Gagnant : (0, 1) - Nombre de plis : 100 - Nombre de cartes posees : 138
 #cartes_joueur1 = [2, 4, 2, 2, 1, 1, 4, 1]
 #cartes_joueur2 = [2, 3, 4, 3, 1, 3, 3, 4]
@@ -38,7 +38,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=5 (10^9 testées) (il y en a 150 milliards !!  (152.770.174.200 exactement))
+# V=5 (10^9 testées) (il y a 150 milliards de parties !!  (152.770.174.200 exactement))
 #Gagnant : (1, 0) - Nombre de plis : 311 - Nombre de cartes posees : 382
 #cartes_joueur1 = [2, 3, 5, 3, 1, 4, 4, 2, 4, 5]
 #cartes_joueur2 = [5, 3, 1, 1, 2, 4, 2, 3, 5, 1]
