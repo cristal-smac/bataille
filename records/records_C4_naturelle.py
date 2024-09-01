@@ -24,7 +24,7 @@ from bataille import *
 #cartes_joueur2 = [2, 3, 3, 1, 1, 2]
 # Durée moyenne : 13,43
 
-# 360 cycles qui amènent à un seul cycle de taille 19, malheureusement non aligné.
+# 360 cycles qui amènent à un seul cycle de taille 19, malheureusement non aligné :(((
 #cartes_joueur1 = [3,2,1,1,2,1]
 #cartes_joueur2 = [2,1,3,2,3,3] 
 
@@ -36,15 +36,15 @@ from bataille import *
 #cartes_joueur2 = [4, 1, 3, 1, 4, 2, 2, 1]
 # Durée moyenne : 28,61
 
-# 8545 cycles qui amènent à 4 cycles différents. 
+# 8545 cycles qui amènent à 4 cycles différents, tous de taille 24 et tous alignés !
 #[4, 2, 4, 1, 3, 1, 3, 3] [2, 1, 4, 4, 3, 2, 2, 1]
 #[3, 1, 3, 3, 2, 1, 4, 4] [3, 2, 2, 1, 4, 2, 4, 1]
 #[3, 1, 3, 3, 4, 1, 4, 4] [3, 2, 2, 1, 4, 2, 2, 1]
 #[2, 1, 4, 4, 2, 1, 3, 3] [4, 2, 4, 1, 3, 2, 3, 1]
 
 # Ex : Cycle aligné de taille 24
-#cartes_joueur1 = [2,1,4,4,2,1,3,3]
-#cartes_joueur2 = [4,2,4,1,3,2,3,1]
+#cartes_joueur1 = [2, 1, 4, 4, 2, 1, 3, 3]
+#cartes_joueur2 = [4, 2, 4, 1, 3, 2, 3, 1]
 
 #------------------------------------------------------
 
