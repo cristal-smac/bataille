@@ -1,6 +1,6 @@
-# records actuels selon le nombre de cartes d'une couleur (N)
+# records actuels selon le nombre de valeurs de cartes (V) et 4 couleurs avec rangement naturel.
 
-# Il existe des cycles alignés permettant de construire tous les cycles pour N pair
+# Il existe des cycles alignés pour V=3 et V=4, ce qui permet de construire tous les cycles pour tous les ensembles de valeurs de taille 3x+4y (3,4,6,7,8,9,10,11,12,..) mais ni 5, ni 13
 
 from bataille import *
 
@@ -8,7 +8,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=2  - MAXIMUM POSSIBLE - 38 parties
+# V=2  - MAXIMUM POSSIBLE - 38 parties
 # Gagnant : (1, 0) - Nombre de plis : 4 - Nombre de cartes posees : 8
 # cartes_joueur1 = [1, 1, 2, 2]
 # cartes_joueur2 = [1, 2, 2, 1]
@@ -18,7 +18,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=3  - MAXIMUM POSSIBLE - 17.370
+# V=3  - MAXIMUM POSSIBLE - 17.370
 # Gagnant : (1, 0) - Nombre de plis : 37 - Nombre de cartes posees : 54
 #cartes_joueur1 =[2, 1, 3, 1, 3, 2]
 #cartes_joueur2 = [2, 3, 3, 1, 1, 2]
@@ -30,7 +30,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=4  - MAXIMUM POSSIBLE - 31.532.760 (46mn)
+# V=4  - MAXIMUM POSSIBLE - 31.532.760 (46mn)
 # Gagnant : (1, 0) - Nombre de plis : 142 - Nombre de cartes posees : 192
 #cartes_joueur1 = [2, 1, 3, 3, 4, 2, 3, 4]
 #cartes_joueur2 = [4, 1, 3, 1, 4, 2, 2, 1]
@@ -43,7 +43,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=5 (il y en a 150 milliards !!  (152.770.174.200 exactement))
+# V=5 (il y en a 150 milliards !!  (152.770.174.200 exactement))
 # Gagnant : (1, 0) - Nombre de plis : 453 - Nombre de cartes posees : 562
 #cartes_joueur1 = [1, 1, 1, 2, 1, 5, 3, 4, 4, 5]
 #cartes_joueur2 = [2, 3, 5, 3, 4, 5, 2, 3, 4, 2]
@@ -52,7 +52,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=6
+# V=6
 #Gagnant : (1, 0) - Nombre de plis : 908 - Nombre de cartes posees : 1088
 #cartes_joueur1 = [1, 2, 4, 4, 6, 6, 5, 2, 3, 1, 2, 3]
 #cartes_joueur2 = [6, 5, 4, 1, 1, 5, 2, 3, 6, 4, 5, 3]
@@ -64,7 +64,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=7
+# V=7
 # Gagnant : (0, 1) - Nombre de plis : 1488 - Nombre de cartes posees : 1710
 #cartes_joueur1 = [4, 1, 5, 4, 4, 6, 2, 4, 7, 3, 3, 7, 5, 7]
 #cartes_joueur2 = [6, 7, 5, 5, 1, 6, 3, 1, 1, 6, 2, 2, 2, 3]
@@ -73,7 +73,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=8  (jeu de 32 cartes)
+# V=8  (jeu de 32 cartes)
 # NOUVEAU Gagnant : (0, 1) - Nombre de plis : 1999 - Nombre de cartes posees : 2268
 #cartes_joueur1 = [1, 1, 1, 2, 2, 6, 2, 4, 7, 3, 8, 3, 8, 7, 2, 6]
 #cartes_joueur2 = [3, 8, 3, 8, 7, 6, 6, 7, 5, 5, 1, 4, 5, 5, 4, 4]
@@ -85,7 +85,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=9
+# V=9
 # Gagnant : (0, 1) - Nombre de plis : 2610 - Nombre de cartes posees : 2896
 #cartes_joueur1 = [5, 8, 5, 8, 2, 3, 5, 1, 5, 9, 6, 6, 8, 1, 2, 3, 9, 6]
 #cartes_joueur2 = [9, 1, 6, 9, 2, 7, 1, 4, 3, 7, 3, 8, 4, 4, 7, 4, 2, 7]
@@ -94,7 +94,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=10
+# V=10
 # NOUVEAU Gagnant : (0, 1) - Nombre de plis : 3245 - Nombre de cartes posees : 3606
 #cartes_joueur1 = [10, 6, 7, 3, 10, 7, 4, 1, 9, 8, 2, 4, 4, 3, 4, 9, 1, 1, 10, 7]
 #cartes_joueur2 = [9, 6, 3, 1, 2, 2, 7, 6, 8, 3, 6, 2, 10, 5, 9, 5, 5, 8, 5, 8]
@@ -104,7 +104,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=11
+# V=11
 # NOUVEAU Gagnant : (1, 0) - Nombre de plis : 3860 - Nombre de cartes posees : 4224
 #cartes_joueur1 = [4, 8, 4, 3, 9, 2, 11, 1, 2, 8, 4, 4, 8, 3, 6, 7, 7, 8, 6, 11, 2, 11]
 #cartes_joueur2 = [1, 3, 6, 10, 1, 3, 6, 1, 7, 5, 11, 10, 9, 10, 7, 2, 9, 5, 9, 10, 5, 5] 
@@ -113,7 +113,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=12
+# V=12
 # NOUVEAU Gagnant : (0, 1) - Nombre de plis : 4453 - Nombre de cartes posees : 4860
 #cartes_joueur1 = [9, 2, 4, 11, 3, 10, 6, 4, 1, 3, 10, 2, 10, 12, 7, 2, 5, 7, 3, 4, 11, 7, 4, 2]
 #cartes_joueur2 = [9, 5, 1, 3, 8, 11, 11, 7, 1, 6, 1, 12, 8, 6, 10, 9, 6, 9, 8, 8, 12, 12, 5, 5]
@@ -122,7 +122,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N=13
+# V=13
 # NOUVEAU Gagnant : (0, 1) - Nombre de plis : 5506 - Nombre de cartes posees : 5942
 #cartes_joueur1 = [1, 7, 7, 8, 1, 1, 9, 13, 1, 7, 3, 6, 10, 10, 2, 11, 9, 8, 12, 2, 7, 12, 2, 4, 4, 5]
 #cartes_joueur2 = [3, 6, 6, 8, 2, 10, 4, 9, 11, 13, 8, 3, 6, 3, 12, 13, 12, 5, 10, 13, 5, 4, 11, 5, 11, 9]
