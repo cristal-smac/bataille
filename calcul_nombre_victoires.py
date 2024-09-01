@@ -5,7 +5,7 @@ import pandas as pd
 
 start_time = time.time()
 
-# Tableau du nombre de victoires sur 10000
+# Tableau du nombre de victoires sur 10000 (5mn pour N=8  ; 30mn pour N=13)
 # On laisse des 0 sur la diagonale
 
 methodes_rangement = ["naturelle", "aleatoire", "optimisee"]
