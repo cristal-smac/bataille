@@ -12,5 +12,5 @@ Le code ci-dessous est le code qui a permi d'établir les records cités dans l'
 - [M Mayer - Github "Beggar my Neighbour](https://github.com/matthewmayer/beggarmypython)
 - [M Paulhus - Beggar My Neighbour. The American Mathematical Monthly, 106(2), pp162–165](https://www.tandfonline.com/doi/abs/10.1080/00029890.1999.12005024)
 - [M Spivey - Cycles in war, INTEGERS 10, pp 747-764, 2010](https://www.emis.de/journals/INTEGERS/papers/kg2/kg2.pdf)
-- [Wikipedia EN](https://en.wikipedia.org/wiki/War_(card_game)
+- [Wikipedia EN](https://en.wikipedia.org/wiki/War_(card_game))
 - [Wikipedia FR](https://fr.wikipedia.org/wiki/Bataille_(jeu))
