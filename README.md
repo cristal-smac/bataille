@@ -1,6 +1,6 @@
 # War Card Game - La Bataille ouverte
 
-Cette page contient le code correspondant à l'article *Les défis du jeu de la bataille* de la revue [Pour La Science](https://www.pourlascience.fr/) (PLS 565 - nov 2024) et reprend les résultats de l'ancien article (PLS215, sept 1995).
+Cette page contient le code correspondant à l'article *Les défis du jeu de la bataille* de la revue [Pour La Science](https://www.pourlascience.fr/) (PLS 565 - nov 2024) et reprend les résultats de l'ancien article ([PLS215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)).
 
 Le jeu de la bataille, joué dans le monde entier est sans doute le plus simple des jeux de cartes. Il regorge néanmoins de nombreux mystères notamment sur les records de longueur de parties ou l'existance de cycles.
 Le code ci-dessous est le code qui a permi d'établir les records cités dans l'article.
