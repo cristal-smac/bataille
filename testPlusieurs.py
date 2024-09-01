@@ -63,12 +63,18 @@ def generer_mains_aleatoires(nb_couleurs, nb_valeurs, nb_parties):
         yield paquet[:taille_main], paquet[taille_main:]
 
 
-# Cycle aligné si il existe dedans une distrib avec 2 mains de même taille
+# Cycle aligné si il existe dedans plusieurs couples avec 2 mains de même taille et tous séparés de C*V/2 maxi
+# ça ne suffit pas, c'est une abstraction du vrai calcul
 def isAligne(cycle):
-    for (main1,main2) in cycle :
-        if (len(main1)==len(main2)):
-            return True
-    return False
+    # Get indices where both values in the tuple have the same length
+    indices = [i for i, (a, b) in enumerate(x) if len(a) == len(b)]
+    if indices == []:
+        return False
+    # Check if each index is separated from the next by at least n
+    n = len(cycle[indices[0]][0])  # length of C*V /2
+    is_separated = all((indices[i + 1] - indices[i]) <= n for i in range(len(indices) - 1))
+    return is_separated
+
 
 # Cycle nouveau si
 def isNouveau(cycle,liste):
@@ -78,7 +84,7 @@ def isNouveau(cycle,liste):
     return True
 
 
-def simuler_distributions(distributions, rangement_j1, rangement_j2 , trace, limite_cartes_posees=10000):
+def simuler_distributions(distributions, rangement_j1, rangement_j2 , trace, limite_cartes_posees=50000):
     partie_max_duree = 0
     partie_max_distribution = None
     nombre_de_cycles = 0
@@ -134,9 +140,11 @@ def simuler_distributions(distributions, rangement_j1, rangement_j2 , trace, lim
 
     # Générer l'histogramme
     #plt.hist(liste_durees, bins=range(min(liste_durees), max(liste_durees) + 2), edgecolor='black')
-    #plt.title('Histogramme des durées (0 représente un cycle)')
+    ##plt.title('Histogramme des durées (0 représente un cycle) à 52 cartes')
+    #plt.title('Histogramme des durées à 52 cartes sur 10000 parties')
     #plt.xlabel('Durees')
     #plt.ylabel('Nombre de parties')
+    #plt.grid()
     #plt.show()
 
     return moyenne_durees, nombre_victoires_j1, nombre_victoires_j2
@@ -156,8 +164,8 @@ def simuler_toutes_distributions(nb_couleurs, nb_valeurs,rangement_j1,rangement_
 # Tester la simulation pour plusieurs distributions aléatoires
 if __name__ == "__main__":
     start_time = time.time()
-    #simuler_plusieurs(nb_couleurs=4, nb_valeurs=5, nb_parties=1000000, rangement_j1="naturelle", rangement_j2="naturelle", trace=False)
-    simuler_toutes_distributions(nb_couleurs=1, nb_valeurs=9, rangement_j1="naturelle", rangement_j2="naturelle",trace=False)
+    #simuler_plusieurs(nb_couleurs=4, nb_valeurs=13, nb_parties=1000, rangement_j1="naturelle", rangement_j2="naturelle", trace=False)
+    simuler_toutes_distributions(nb_couleurs=4, nb_valeurs=4, rangement_j1="naturelle", rangement_j2="naturelle",trace=False)
     end_time = time.time()
     elapsed_time = end_time - start_time
     minutes, seconds = divmod(elapsed_time, 60)  # Convert to minutes and seconds
