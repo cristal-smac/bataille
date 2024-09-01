@@ -4,3 +4,5 @@ Code correspondant à l'article *Les défis du jeu de la bataille* de la revue [
 
 Le jeu de la bataille, joué dans le monde entier est sans doute le plus simple des jeux de cartes. Il regorge néanmoins de nombreux mystères notamment sur les records de longueur de parties ou l'existance de cycles.
 Le code ci-dessous est le code qui a permi d'établir les records cités dans l'article.
+
+<img src="img/histo_naturelle_32cartes_10000parties.png" alt= "histo durees 32 cartes" width="46%"/> <img src="img/histo_naturelle_52cartes_10000parties.png" alt= "histo durees 52 cartes" width="46%"/>
