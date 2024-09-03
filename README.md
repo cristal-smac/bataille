@@ -2,10 +2,10 @@
 
 Cette page contient le code correspondant à l'article *Les défis du jeu de la bataille* de la revue [Pour La Science](https://www.pourlascience.fr/) (PLS 569 - janv 2025) et reprend les résultats de l'ancien article (*La bataille enfin analysée* [PLS215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)).
 L'ensemble de ce travail a été réalisé par les Pr Philippe Mathieu et Jean-paul Delahaye ([CRISTAL](http://www.cristal.univ-lille.fr), [SMAC team](https://www.cristal.univ-lille.fr/?rubrique27&eid=17), [Lille University](http://www.univ-lille.fr)).
-
+<p></p>
 Le jeu de la bataille, joué dans le monde entier est sans doute le plus simple des jeux de cartes. Il regorge néanmoins de nombreux mystères notamment sur les records de longueur de parties ou l'existence de cycles.
 Le code ci-dessous est le code qui a permis d'établir les records cités dans l'article.
-
+<p></p>
 Existe-t-il des parties infinies à la bataille française ouverte (sans carte à l'envers) ? Nous avons trouvé en 1995 une solution positive pour 32 cartes avec rangement naturel, mais pas pour les 3 autres (32 cartes rangement optimisé, 52 cartes rangements naturel et optimisé).
 C'est un vrai défi ! 
 
@@ -13,13 +13,15 @@ C'est un vrai défi !
 
 # Principe
 Le principe du jeu de Bataille ouverte : 2 joueurs jouent simultanément, chacun avec sa pile de cartes. Chacun pose une carte visible sur le tapis. La plus forte valeur l'emporte. En cas d'égalité, on recommence à jouer en empilant les cartes sur le tapis tant qu'il y a égalité. Quand l'un des deux pose une carte supérieure, il remporte l'ensemble du tas. Le jeu s'arrête quand l'un des joueurs n'a plus de carte.
+<p></p>
 Idéalement, en OOP, on coderait une classe Carte(valeur, couleur) et une classe Joueur(main), mais à la bataille, la couleur ne sert qu'à indiquer combien de fois une valeur apparait. On supprime donc la classe Carte, et finalement aussi la classe joueur puisqu'il n'y en n'a que 2. Un jeu de cartes n'est plus qu'un tableau d'entiers de 1 à n valeurs V chaque entier apparaissant C couleurs fois. Par exemple avec C=4 et V=3 , les C*V cartes pourraient être [1,2,3,1,2,3,1,2,3,1,2,3]. Une partie est donc définie par 2 "mains" qui sont des tableaux d'entiers.
 Le fait de ne pas avoir d'objet, non seulement simplifie le code, mais l'accélère pas mal puisqu'il n'y a  plus d'allocations/desallocations des objets.
+<p></p>
 Le programme est paramétrique : le nombre de couleurs, le nombre de valeurs, et la manière de ranger les cartes sous le paquet pour chacun des joueurs sont réglables et fournissent pour chaque valeur un nouveau problème à étudier.
 
 ## Biblio
 - [JP Delahaye - P Mathieu. Pour la Science 215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)
-- [M Mayer - Github "Beggar my Neighbour](https://github.com/matthewmayer/beggarmypython)
+- [M Mayer - Github "Beggar my Neighbour"](https://github.com/matthewmayer/beggarmypython)
 - [M Paulhus - Beggar My Neighbour. The American Mathematical Monthly, 106(2), pp162–165](https://www.tandfonline.com/doi/abs/10.1080/00029890.1999.12005024)
 - [M Spivey - Cycles in war, INTEGERS 10, pp 747-764, 2010](https://www.emis.de/journals/INTEGERS/papers/kg2/kg2.pdf)
 - [Wikipedia EN](https://en.wikipedia.org/wiki/War_(card_game))
