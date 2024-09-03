@@ -14,8 +14,8 @@ C'est un vrai défi !
 # Principe
 Le principe du jeu de Bataille ouverte : 2 joueurs jouent simultanément, chacun avec sa pile de cartes. Chacun pose une carte visible sur le tapis. La plus forte valeur l'emporte. En cas d'égalité, on recommence à jouer en empilant les cartes sur le tapis tant qu'il y a égalité. Quand l'un des deux pose une carte supérieure, il remporte l'ensemble du tas. Le jeu s'arrête quand l'un des joueurs n'a plus de carte.
 <p></p>
-Idéalement, en OOP, on coderait une classe Carte(valeur, couleur) et une classe Joueur(main), mais à la bataille, la couleur ne sert qu'à indiquer combien de fois une valeur apparait. On supprime donc la classe Carte, et finalement aussi la classe joueur puisqu'il n'y en n'a que 2. Un jeu de cartes n'est plus qu'un tableau d'entiers de 1 à n valeurs V chaque entier apparaissant C couleurs fois. Par exemple avec C=4 et V=3 , les C*V cartes pourraient être [1,2,3,1,2,3,1,2,3,1,2,3]. Une partie est donc définie par 2 "mains" qui sont des tableaux d'entiers.
-Le fait de ne pas avoir d'objet, non seulement simplifie le code, mais l'accélère pas mal puisqu'il n'y a  plus d'allocations/desallocations des objets.
+Idéalement, en OOP, on coderait une classe `Carte(valeur, couleur)` et une classe `Joueur(main)`, mais à la bataille, la couleur ne sert qu'à indiquer combien de fois une valeur apparait. On supprime donc la classe `Carte`, et finalement aussi la classe `Joueur` puisqu'il n'y en n'a que 2. Un jeu de cartes n'est alors plus qu'un tableau d'entiers de 1 à n valeurs V, chaque entier apparaissant C couleurs fois. Par exemple avec C=4 et V=3 , les C*V cartes pourraient être [1,2,2,1,2,3,1,2,3,1,3,3]. Une partie est donc définie par 2 "mains" qui sont des tableaux d'entiers.
+Le fait de ne pas avoir d'objet, non seulement simplifie le code, mais l'accélère, puisqu'il n'y a  plus d'allocations/desallocations d'objets.
 <p></p>
 Le programme est paramétrique : le nombre de couleurs, le nombre de valeurs, et la manière de ranger les cartes sous le paquet pour chacun des joueurs sont réglables et fournissent pour chaque valeur un nouveau problème à étudier.
 
