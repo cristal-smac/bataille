@@ -1,6 +1,6 @@
 # records actuels selon le nombre de valeurs de cartes (V) et 4 couleurs avec rangement naturel.
 
-# Il existe des cycles alignés pour V=4 et V=6, ce qui permet de construire tous les cycles pour tous les ensembles de valeurs de taille à partir de 4.
+# Il existe des cycles alignés pour (C=4 V=4) et (C=4 V=6), ce qui permet de construire des cycles alignés pour C=4 et V pair à partir de 4 (V= 4, 6, 8, 10, ...)
 
 from bataille import *
 
