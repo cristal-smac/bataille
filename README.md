@@ -19,7 +19,7 @@ Le fait de ne pas avoir d'objet, non seulement simplifie le code, mais l'accél�
 <p></p>
 Le programme est paramétrique : le nombre de couleurs, le nombre de valeurs, et la manière de ranger les cartes sous le paquet pour chacun des joueurs sont réglables et fournissent pour chaque valeur un nouveau problème à étudier.
 
-# Records
+# Records actuels
 - [4 couleurs, rangement naturel](records_C4_naturelle.py)
 - [4 couleurs, rangement optimisé](records_C4_optimisee.py)
 - [1 couleur, rangement naturel](records_C1_naturelle.py)
