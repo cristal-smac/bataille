@@ -24,10 +24,20 @@ Le programme est paramétrique : le nombre de couleurs, le nombre de valeurs, et
 - [4 couleurs, rangement optimisé](records_C4_optimisee.py)
 - [1 couleur, rangement naturel](records_C1_naturelle.py)
 
-## Biblio
+# Biblio
 - [JP Delahaye - P Mathieu. Pour la Science 215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)
 - [M Mayer - Github "Beggar my Neighbour"](https://github.com/matthewmayer/beggarmypython)
 - [M Paulhus - Beggar My Neighbour. The American Mathematical Monthly, 106(2), pp162–165](https://www.tandfonline.com/doi/abs/10.1080/00029890.1999.12005024)
 - [M Spivey - Cycles in war, INTEGERS 10, pp 747-764, 2010](https://www.emis.de/journals/INTEGERS/papers/kg2/kg2.pdf)
 - [Wikipedia EN](https://en.wikipedia.org/wiki/War_(card_game))
 - [Wikipedia FR](https://fr.wikipedia.org/wiki/Bataille_(jeu))
+
+# License
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.
+If not, see http://www.gnu.org/licenses/.
