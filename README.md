@@ -19,6 +19,11 @@ Le fait de ne pas avoir d'objet, non seulement simplifie le code, mais l'accél�
 <p></p>
 Le programme est paramétrique : le nombre de couleurs, le nombre de valeurs, et la manière de ranger les cartes sous le paquet pour chacun des joueurs sont réglables et fournissent pour chaque valeur un nouveau problème à étudier.
 
+# Records
+- [4 couleurs, rangement naturel](records_C4_naturelle.py)
+- [4 couleurs, rangement optimisé](records_C4_optimisee.py)
+- [1 couleur, rangement naturel](records_C1_naturelle.py)
+
 ## Biblio
 - [JP Delahaye - P Mathieu. Pour la Science 215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)
 - [M Mayer - Github "Beggar my Neighbour"](https://github.com/matthewmayer/beggarmypython)
