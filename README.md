@@ -1,4 +1,4 @@
-# War Card Game - La Bataille
+# War Card Game - Le jeu de La Bataille
 
 Cette page contient le code correspondant à l'article *Les défis du jeu de la bataille* de la revue [Pour La Science](https://www.pourlascience.fr/) (PLS 569 - janv 2025) et reprend les résultats de l'ancien article (*La bataille enfin analysée* [PLS215, sept 1995](https://www.cristal.univ-lille.fr/~jdelahay/pls/1995/030.pdf)).
 L'ensemble de ce travail a été réalisé par les Pr Philippe Mathieu et Jean-paul Delahaye ([CRISTAL](http://www.cristal.univ-lille.fr), [SMAC team](https://www.cristal.univ-lille.fr/?rubrique27&eid=17), [Lille University](http://www.univ-lille.fr)).
