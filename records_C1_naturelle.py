@@ -89,6 +89,21 @@ from bataille import *
 
 #------------------------------------------------------
 
+# V=10 - MAXIMUM POSSIBLE - 1814400 distribs
+# Gagnant : (0, 1) - Nombre de plis : 49 - Nombre de cartes posees : 49
+#cartes_joueur1 = [1, 6, 2, 3, 9]
+#cartes_joueur2 = [5, 8, 10, 7, 4]
+# Durée moyenne des parties (en écartant les cycles) : 14.47
+
+# 48 cycles différents tous de taille 60 , sur les 197970 cycles au total
+# (3, 9, 7, 6, 2), (5, 8, 1, 10, 4)
+# (7, 6, 2, 9, 4), (3, 10, 5, 8, 1)
+# (5, 6, 2, 9, 4), (3, 10, 8, 7, 1)
+# aucun n'est aligné (si V n'est pas un multiple de 2, pas d'alignement possible).
+
+#------------------------------------------------------
+
+
 # V=12 - 10^7 (9mn)
 # Gagnant : (1, 0) - Nombre de plis : 74 - Nombre de cartes posees : 74
 #cartes_joueur1 = [3, 1, 4, 9, 12, 10]
@@ -107,10 +122,20 @@ from bataille import *
 
 #------------------------------------------------------
 
+# V=22 - 10^6
+
+# Nouveau record : [2, 14, 22, 15, 10, 7, 11, 1, 12, 17, 5] [8, 21, 6, 4, 3, 16, 20, 19, 9, 18, 13]        Duree = 1103
+# Durée moyenne des parties (en écartant les cycles) : 78.58
+
+# Énormément de cycles de taille 264 très majoritairement, puis pas mal de 528 et quelques uns de plus de 1000 étapes
+# mais aucun ne sera aligné (si V n'est pas un multiple de 2, pas d'alignement possible).
+
+#------------------------------------------------------
+
 # V=24 - 10^7 (55mn ; 10^6 en 5mn)
-#Gagnant : (0, 1) - Nombre de plis : 576 - Nombre de cartes posees : 576
-#cartes_joueur1 = [11, 9, 8, 23, 20, 21, 5, 1, 15, 6, 4, 13]
-#cartes_joueur2 = [17, 19, 7, 12, 14, 10, 24, 16, 22, 2, 18, 3]
+#Gagnant : (0, 1) - Nombre de plis : 670 - Nombre de cartes posees : 670
+#cartes_joueur1 = [5, 2, 9, 22, 18, 23, 1, 12, 10, 7, 6, 17] 
+#cartes_joueur2 = [13, 14, 21, 19, 20, 11, 24, 15, 8, 3, 4, 16]
 # Durée moyenne des parties (en écartant les cycles) : 74.48
 
 #------------------------------------------------------
