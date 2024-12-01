@@ -77,7 +77,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=9  - MAXIMUM POSSIBLE - 181440 distribs
+# V=9  - MAXIMUM POSSIBLE - 181.440 distribs
 # Gagnant : (0, 1) - Nombre de plis : 28 - Nombre de cartes posees : 28
 #cartes_joueur1 = [1, 2, 3, 8]
 #cartes_joueur2 = [6, 5, 4, 7, 9]
@@ -89,7 +89,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=10 - MAXIMUM POSSIBLE - 1814400 distribs
+# V=10 - MAXIMUM POSSIBLE - 1.814.400 distribs
 # Gagnant : (0, 1) - Nombre de plis : 49 - Nombre de cartes posees : 49
 #cartes_joueur1 = [1, 6, 2, 3, 9]
 #cartes_joueur2 = [5, 8, 10, 7, 4]
@@ -104,13 +104,13 @@ from bataille import *
 #------------------------------------------------------
 
 
-# V=12 - 10^7 (9mn)
+# V=12 - MAXIMUM POSSIBLE - 239.500.800 distribs (212mn)
 # Gagnant : (1, 0) - Nombre de plis : 74 - Nombre de cartes posees : 74
 #cartes_joueur1 = [3, 1, 4, 9, 12, 10]
 #cartes_joueur2 = [7, 6, 11, 5, 2, 8]
-# Durée moyenne des parties (en écartant les cycles) : 20.85
+# Durée moyenne des parties (en écartant les cycles) : 20.86
 
-# Aucun cycle encore trouvé aléatoirement
+# Aucun cycle
 
 #------------------------------------------------------
 

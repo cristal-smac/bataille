@@ -50,7 +50,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=6
+# V=6 (10^8 testées)
 # Gagnant : (1, 0) - Nombre de plis : 620 - Nombre de cartes posees : 736
 #cartes_joueur1 = [5, 3, 2, 2, 6, 2, 4, 5, 3, 6, 6, 3]
 #cartes_joueur2 = [5, 6, 4, 4, 3, 1, 5, 2, 1, 1, 1, 4]
@@ -71,7 +71,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# V=8
+# V=8 (10^7 testées)
 # Gagnant : (0, 1) - Nombre de plis : 1645 - Nombre de cartes posees : 1858
 #cartes_joueur1 = [5, 3, 8, 6, 8, 6, 1, 3, 2, 1, 8, 7, 7, 1, 2, 1]
 #cartes_joueur2 = [3, 5, 2, 7, 6, 4, 6, 3, 4, 8, 5, 7, 4, 4, 5, 2]
@@ -80,7 +80,7 @@ from bataille import *
 
 #------------------------------------------------------
 
-# N9
+# V=9 (10^7 testées)
 # Gagnant : (0, 1) - Nombre de plis : 1936 - Nombre de cartes posees : 2154
 #cartes_joueur1 = [1, 8, 6, 5, 6, 8, 2, 9, 2, 4, 7, 7, 7, 2, 5, 1, 1, 5]
 #cartes_joueur2 = [9, 8, 6, 6, 4, 3, 3, 5, 2, 7, 8, 3, 9, 3, 9, 4, 4, 1]
