@@ -79,10 +79,11 @@ from bataille import *
 #------------------------------------------------------
 
 # V=8  (jeu de 32 cartes)
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 2031 - Nombre de cartes posees : 2306
-# découvert par Marc Lapierre
-#cartes_joueur1 = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 8, 6]
-#cartes_joueur2 = [5, 8, 5, 4, 4, 8, 5, 5, 6, 7, 7, 8, 7, 7, 6, 6]
+# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 2216 - Nombre de cartes posees : 2546
+# découvert par Marc Lapierre le 6/02/2025
+#cartes_joueur1 = [8, 5, 1, 4, 4, 2, 4, 5, 7, 8, 6, 7, 3, 8, 7, 7]
+#cartes_joueur2 = [3, 3, 1, 2, 1, 4, 5, 6, 6, 6, 5, 2, 2, 1, 8, 3]
+
 
 # Cycle de taille 48
 #cartes_joueur1 = [8, 5, 5, 1, 6, 2, 6, 6, 7, 2, 7, 7, 4, 2, 4, 4]
@@ -92,7 +93,7 @@ from bataille import *
 
 # V=9
 # NOUVEAU Gagnant : (1, 0) - Nombre de plis : 2612 - Nombre de cartes posees : 2926
-# découvert par Marc Lapierre
+# découvert par Marc Lapierre le 5/02/2025
 #cartes_joueur1 = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 9]
 #cartes_joueur2 = [5, 9, 5, 5, 9, 8, 6, 8, 8, 7, 6, 9, 6, 6, 7, 8, 7, 7]
 
