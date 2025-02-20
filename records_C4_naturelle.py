@@ -58,23 +58,28 @@ from bataille import *
 #------------------------------------------------------
 
 # V=6
-#Gagnant : (1, 0) - Nombre de plis : 908 - Nombre de cartes posees : 1088
-#cartes_joueur1 = [1, 2, 4, 4, 6, 6, 5, 2, 3, 1, 2, 3]
-#cartes_joueur2 = [6, 5, 4, 1, 1, 5, 2, 3, 6, 4, 5, 3]
+# NOUVEAU Gagnant : (1, 0) - Nombre de plis : 994 - Nombre de cartes posees : 1190
+# découvert par Marc Lapierre le 19/02/2025
+#cartes_joueur1 = [3,4,5,4,1,1,6,2,1,1,2,3]
+#cartes_joueur2 =  [5,4,4,5,6,6,2,2,6,3,5,3]
 # Duree moyenne = 72.37
 
 # Enormément de cycles alignés. Ici ex de taille 36
 #cartes_joueur1 = [4, 2, 5, 5, 4, 2, 6, 6, 3, 2, 2, 1]
 #cartes_joueur2 = [5, 4, 5, 1, 6, 4, 6, 1, 3, 1, 3, 3]
 
+
 #------------------------------------------------------
 
 # V=7
-# Gagnant : (0, 1) - Nombre de plis : 1488 - Nombre de cartes posees : 1710
-#cartes_joueur1 = [4, 1, 5, 4, 4, 6, 2, 4, 7, 3, 3, 7, 5, 7]
-#cartes_joueur2 = [6, 7, 5, 5, 1, 6, 3, 1, 1, 6, 2, 2, 2, 3]
+# NOUVEAU Gagnant : (1, 0) - Nombre de plis : 1611 - Nombre de cartes posees : 1880
+# découvert par Marc Lapierre le 19/02/2025
+#cartes_joueur1 = [1,1,1,1,2,2,2,2,3,6,6,3,6,7]
+#cartes_joueur2 = [4,3,5,4,5,4,5,6,3,7,7,5,4,7]
 
 # Enormément de cycles 
+
+
 
 #------------------------------------------------------
 
@@ -131,9 +136,10 @@ from bataille import *
 #------------------------------------------------------
 
 # V=13
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 5506 - Nombre de cartes posees : 5942
-#cartes_joueur1 = [1, 7, 7, 8, 1, 1, 9, 13, 1, 7, 3, 6, 10, 10, 2, 11, 9, 8, 12, 2, 7, 12, 2, 4, 4, 5]
-#cartes_joueur2 = [3, 6, 6, 8, 2, 10, 4, 9, 11, 13, 8, 3, 6, 3, 12, 13, 12, 5, 10, 13, 5, 4, 11, 5, 11, 9]
+# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 5549 - Nombre de cartes posees : 5962
+# cartes_joueur1 = [12,6,7,8,1,7,5,1,3,13,13,9,1,3,5,7,10,6,12,8,6,9,8,3,9,4]
+# cartes_joueur2 = [10,2,9,1,7,5,10,11,12,8,12,11,6,11,3,4,13,2,11,4,2,5,10,2,13,4]
+# découvert par Marc Lapierre le 19/02/2025
 
 # Aucun cycle encore trouvé aléatoirement
 
