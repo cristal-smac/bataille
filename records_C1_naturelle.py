@@ -115,16 +115,22 @@ from bataille import *
 #------------------------------------------------------
 
 # V=16 - 10^7 (52mn ;  10^6 en 1mn48)
-# Gagnant : (1, 0) - Nombre de plis : 198 - Nombre de cartes posees : 198
-#cartes_joueur1 =  [3, 8, 10, 7, 16, 9, 11, 2]
-#cartes_joueur2 = [4, 12, 13, 5, 6, 1, 14, 15] 
+# Gagnant : (1, 0) - Nombre de plis : 246 - Nombre de cartes posees : 246
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[9,14,11,2,6,3,16,10]
+#cartes_joueur2=[12,1,13,15,8,7,5,4]
+
 # Durée moyenne des parties (en écartant les cycles) : 35.28
 
 #------------------------------------------------------
 
 # V=22 - 10^6
 
-# Nouveau record : [2, 14, 22, 15, 10, 7, 11, 1, 12, 17, 5] [8, 21, 6, 4, 3, 16, 20, 19, 9, 18, 13]        Duree = 1103
+# Gagnant : (0, 1) - Nombre de plis : 1391 - Nombre de cartes posees : 1391
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[11,4,13,14,16,3,18,21,8,17,15,]
+#cartes_joueur2=[19,10,6,20,12,2,9,5,7,22,1,]
+
 # Durée moyenne des parties (en écartant les cycles) : 78.58
 
 # Énormément de cycles de taille 264 très majoritairement, puis pas mal de 528 et quelques uns de plus de 1000 étapes
@@ -133,32 +139,40 @@ from bataille import *
 #------------------------------------------------------
 
 # V=24 - 10^7 (55mn ; 10^6 en 5mn)
-#Gagnant : (0, 1) - Nombre de plis : 670 - Nombre de cartes posees : 670
-#cartes_joueur1 = [5, 2, 9, 22, 18, 23, 1, 12, 10, 7, 6, 17] 
-#cartes_joueur2 = [13, 14, 21, 19, 20, 11, 24, 15, 8, 3, 4, 16]
+# Gagnant : (0, 1) - Nombre de plis : 886 - Nombre de cartes posees : 886
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[16,8,17,9,6,2,14,19,23,12,3,13,]
+#cartes_joueur2=[22,24,1,21,11,18,4,10,5,15,7,20,]
+
 # Durée moyenne des parties (en écartant les cycles) : 74.48
 
 #------------------------------------------------------
 
 # V=32 - 10^7 (124mn ; 10^6 en 12mn)
-# Gagnant : (0, 1) - Nombre de plis : 1302 - Nombre de cartes posees : 1302
-#cartes_joueur1 = [9, 27, 24, 29, 3, 21, 6, 8, 31, 19, 7, 5, 28, 13, 22, 26]
-#cartes_joueur2 = [14, 10, 1, 11, 32, 30, 20, 25, 15, 16, 12, 18, 17, 23, 4, 2]
+# Gagnant : (1, 0) - Nombre de plis : 1810 - Nombre de cartes posees : 1810
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[3,9,29,23,11,18,20,2,8,25,22,13,1,32,15,17]
+#cartes_joueur2=[12,7,26,14,31,21,16,5,27,30,24,6,10,19,28,4]
+
 # Durée moyenne des parties (en écartant les cycles) : 130.10
 
 #------------------------------------------------------
 
 # V=48 - 10^6 (45mn)
-# Gagnant : (1, 0) - Nombre de plis : 2790 - Nombre de cartes posees : 2790
-#cartes_joueur1 = [20, 9, 45, 14, 30, 15, 36, 29, 40, 5, 39, 16, 13, 41, 27, 8, 1, 19, 48, 17, 18, 10, 3, 33]
-#cartes_joueur2 = [28, 26, 24, 6, 42, 12, 43, 21, 37, 11, 22, 4, 47, 44, 7, 34, 31, 32, 25, 46, 23, 2, 35, 38]
+# Gagnant : (1, 0) - Nombre de plis : 4146 - Nombre de cartes posees : 4146
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[36,22,16,45,25,48,26,28,20,23,15,33,17,12,42,13,46,27,18,32,19,8,43,6]
+#cartes_joueur2=[3,14,2,11,10,37,30,38,41,1,39,34,21,40,29,47,5,24,4,31,44,7,35,9]
+
 
 #------------------------------------------------------
 
 # V=64 - 10^6 (11h)
-# Gagnant : (0, 1) - Nombre de plis : 4696 - Nombre de cartes posees : 4696
-#cartes_joueur1 = [30, 31, 11, 5, 20, 61, 1, 17, 62, 28, 36, 59, 55, 23, 42, 9, 63, 58, 47, 54, 56, 38, 15, 10, 8, 3, 41, 2, 40, 51, 27, 6]
-#cartes_joueur2 = [57, 50, 24, 37, 12, 48, 32, 46, 26, 29, 19, 35, 16, 22, 60, 52, 14, 53, 18, 64, 25, 45, 13, 43, 21, 34, 7, 49, 4, 33, 44, 39]
+# Gagnant : (0, 1) - Nombre de plis : 7568 - Nombre de cartes posees : 7568
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[7,52,62,59,39,8,33,41,63,57,34,36,43,20,12,27,9,38,45,40,50,53,10,49,61,31,46,21,58,19,5,30,]
+#cartes_joueur2=[22,29,4,54,32,23,35,44,48,60,14,47,25,55,24,42,26,11,18,13,15,1,6,2,56,64,37,51,17,16,3,28,]
+
 
 
 

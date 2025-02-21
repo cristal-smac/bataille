@@ -53,6 +53,8 @@ from bataille import *
 #cartes_joueur1 = [1, 1, 1, 2, 1, 5, 3, 4, 4, 5]
 #cartes_joueur2 = [2, 3, 5, 3, 4, 5, 2, 3, 4, 2]
 
+# Exploré complètement par Clément Courbet le 20/02/2025
+
 # Aucun cycle encore trouvé aléatoirement : A mon avis, il n'y en n'a pas
 
 #------------------------------------------------------
@@ -84,11 +86,10 @@ from bataille import *
 #------------------------------------------------------
 
 # V=8  (jeu de 32 cartes)
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 2216 - Nombre de cartes posees : 2546
-# découvert par Marc Lapierre le 6/02/2025
-#cartes_joueur1 = [8, 5, 1, 4, 4, 2, 4, 5, 7, 8, 6, 7, 3, 8, 7, 7]
-#cartes_joueur2 = [3, 3, 1, 2, 1, 4, 5, 6, 6, 6, 5, 2, 2, 1, 8, 3]
-
+# Gagnant : (0, 1) - Nombre de plis : 2308 - Nombre de cartes posees : 2602
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[5,5,1,4,6,1,8,3,6,5,3,7,8,2,2,8,]
+#cartes_joueur2=[7,8,7,6,1,3,4,7,5,1,4,3,2,6,4,2,]
 
 # Cycle de taille 48
 #cartes_joueur1 = [8, 5, 5, 1, 6, 2, 6, 6, 7, 2, 7, 7, 4, 2, 4, 4]
@@ -97,20 +98,20 @@ from bataille import *
 #------------------------------------------------------
 
 # V=9
-# NOUVEAU Gagnant : (1, 0) - Nombre de plis : 2612 - Nombre de cartes posees : 2926
-# découvert par Marc Lapierre le 5/02/2025
-#cartes_joueur1 = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 9]
-#cartes_joueur2 = [5, 9, 5, 5, 9, 8, 6, 8, 8, 7, 6, 9, 6, 6, 7, 8, 7, 7]
-
+# Gagnant : (1, 0) - Nombre de plis : 2708 - Nombre de cartes posees : 3024
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[3,3,1,3,7,9,1,2,6,3,4,4,6,7,2,2,9,5]
+#cartes_joueur2=[5,8,7,4,8,5,1,5,8,1,7,2,4,9,8,6,6,9]
 
 # Aucun cycle encore trouvé aléatoirement.
 
 #------------------------------------------------------
 
 # V=10
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 3245 - Nombre de cartes posees : 3606
-#cartes_joueur1 = [10, 6, 7, 3, 10, 7, 4, 1, 9, 8, 2, 4, 4, 3, 4, 9, 1, 1, 10, 7]
-#cartes_joueur2 = [9, 6, 3, 1, 2, 2, 7, 6, 8, 3, 6, 2, 10, 5, 9, 5, 5, 8, 5, 8]
+# Gagnant : (1, 0) - Nombre de plis : 3745 - Nombre de cartes posees : 4120
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[7,9,2,1,8,4,3,9,7,9,1,6,4,5,10,5,4,7,6,3]
+#cartes_joueur2=[2,9,10,2,8,1,10,5,7,6,2,3,8,5,8,1,3,6,4,10]
 
 # Aucun cycle encore trouvé aléatoirement
 
@@ -118,28 +119,33 @@ from bataille import *
 #------------------------------------------------------
 
 # V=11
-# NOUVEAU Gagnant : (1, 0) - Nombre de plis : 3860 - Nombre de cartes posees : 4224
-#cartes_joueur1 = [4, 8, 4, 3, 9, 2, 11, 1, 2, 8, 4, 4, 8, 3, 6, 7, 7, 8, 6, 11, 2, 11]
-#cartes_joueur2 = [1, 3, 6, 10, 1, 3, 6, 1, 7, 5, 11, 10, 9, 10, 7, 2, 9, 5, 9, 10, 5, 5] 
+# Gagnant : (0, 1) - Nombre de plis : 4211 - Nombre de cartes posees : 4582
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[10,5,11,5,2,3,4,6,10,10,8,8,9,4,5,1,10,5,11,7,8,8]
+#cartes_joueur2=[4,9,1,7,1,6,2,3,6,3,3,9,2,7,9,2,7,1,11,11,4,6]
 
-# Aucun cycle encore trouvé aléatoirement
+# Cycle découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[1,3,4,9,4,9,6,5,10,7,6,10,5,7,10,11,11,2,8,7,9,5]
+#cartes_joueur2=[8,1,4,1,4,8,2,11,6,3,7,2,8,3,9,1,2,3,10,5,6,11]
+
 
 #------------------------------------------------------
 
 # V=12
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 4453 - Nombre de cartes posees : 4860
-#cartes_joueur1 = [9, 2, 4, 11, 3, 10, 6, 4, 1, 3, 10, 2, 10, 12, 7, 2, 5, 7, 3, 4, 11, 7, 4, 2]
-#cartes_joueur2 = [9, 5, 1, 3, 8, 11, 11, 7, 1, 6, 1, 12, 8, 6, 10, 9, 6, 9, 8, 8, 12, 12, 5, 5]
+# Gagnant : (1, 0) - Nombre de plis : 4913 - Nombre de cartes posees : 5346
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[8,11,5,8,7,3,11,4,6,7,6,2,12,3,1,5,10,12,2,5,11,6,2,5]
+#cartes_joueur2=[10,7,9,8,6,3,9,12,9,2,9,4,11,1,1,1,4,4,7,12,8,10,3,10]
 
 # Aucun cycle encore trouvé aléatoirement
 
 #------------------------------------------------------
 
 # V=13
-# NOUVEAU Gagnant : (0, 1) - Nombre de plis : 5549 - Nombre de cartes posees : 5962
-# cartes_joueur1 = [12,6,7,8,1,7,5,1,3,13,13,9,1,3,5,7,10,6,12,8,6,9,8,3,9,4]
-# cartes_joueur2 = [10,2,9,1,7,5,10,11,12,8,12,11,6,11,3,4,13,2,11,4,2,5,10,2,13,4]
-# découvert par Marc Lapierre le 19/02/2025
+# Gagnant : (1, 0) - Nombre de plis : 5610 - Nombre de cartes posees : 6038
+# découvert par Clément Courbet le 20/02/2025
+#cartes_joueur1=[7,4,10,12,11,9,8,1,2,6,13,2,6,2,11,6,1,13,1,11,5,12,5,12,4,7]
+#cartes_joueur2=[9,9,10,7,8,4,9,6,10,10,3,3,5,3,8,13,3,11,7,2,4,12,1,8,5,13]
 
 # Aucun cycle encore trouvé aléatoirement
 
