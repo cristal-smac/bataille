@@ -4,7 +4,8 @@ Cette page contient le code correspondant à l'article *Les défis du jeu de la 
 L'ensemble de ce travail a été réalisé par les Pr Philippe Mathieu et Jean-paul Delahaye ([CRISTAL](http://www.cristal.univ-lille.fr), [SMAC team](https://www.cristal.univ-lille.fr/?rubrique27&eid=17), [Lille University](http://www.univ-lille.fr)).
 <p></p>
 Le jeu de la bataille, joué dans le monde entier est sans doute le plus simple des jeux de cartes. Il regorge néanmoins de nombreux mystères notamment sur les records de longueur de parties ou l'existence de cycles.
-Le code ci-dessous est le code qui a permis d'établir les records cités dans l'article. Les résultats représentés sont entièrement reproductibles.
+Le code ci-dessous est le code qui a permis d'établir les records cités dans l'article. Les résultats représentés sont entièrement reproductibles. Il est fourni ici est à des fins pédagogiques. Python n'étant clairement pas le langage le plus approprié pour ce type de recherche.
+
 <p></p>
 Existe-t-il des parties infinies à la bataille française (sans carte à l'envers) ? Nous avons trouvé en 1995 une solution positive pour 32 cartes avec rangement naturel, mais pas pour les 3 autres (32 cartes rangement optimisé, 52 cartes rangements naturel et optimisé).
 C'est un vrai défi ! 
